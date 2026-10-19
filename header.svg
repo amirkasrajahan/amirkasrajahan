@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="260" viewBox="0 0 900 260">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0f172a"/>
+      <stop offset="0.55" stop-color="#1e1b4b"/>
+      <stop offset="1" stop-color="#0c4a6e"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#38bdf8"/>
+      <stop offset="1" stop-color="#a78bfa"/>
+    </linearGradient>
+    <clipPath id="type">
+      <rect x="60" y="150" width="0" height="40">
+        <animate attributeName="width" values="0;640;640;0" keyTimes="0;0.5;0.9;1" dur="7s" repeatCount="indefinite"/>
+      </rect>
+    </clipPath>
+  </defs>
+  <rect width="900" height="260" rx="16" fill="url(#bg)"/>
+
+  <!-- floating math/code glyphs: Manim + C++ + web -->
+  <g font-family="Menlo, Consolas, monospace" fill="#94a3b8" opacity="0.35">
+    <text x="640" y="60" font-size="34">∫ eˣ dx
+      <animate attributeName="y" values="60;50;60" dur="5s" repeatCount="indefinite"/></text>
+    <text x="740" y="130" font-size="28">#include
+      <animate attributeName="y" values="130;142;130" dur="6s" repeatCount="indefinite"/></text>
+    <text x="620" y="215" font-size="30">&lt;/&gt;
+      <animate attributeName="y" values="215;205;215" dur="4s" repeatCount="indefinite"/></text>
+    <text x="790" y="225" font-size="26">∑ π
+      <animate attributeName="y" values="225;215;225" dur="5.5s" repeatCount="indefinite"/></text>
+  </g>
+
+  <!-- animated sine wave (Manim nod) -->
+  <path fill="none" stroke="url(#accent)" stroke-width="3" stroke-linecap="round"
+        d="M0 235 Q 75 195 150 235 T 300 235 T 450 235 T 600 235 T 750 235 T 900 235"
+        stroke-dasharray="1200" stroke-dashoffset="1200">
+    <animate attributeName="stroke-dashoffset" values="1200;0" dur="3s" fill="freeze"/>
+  </path>
+
+  <text x="60" y="100" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="46" font-weight="700" fill="url(#accent)">
+    Hi, I'm Amir 👋
+  </text>
+  <text x="60" y="130" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="18" fill="#cbd5e1">
+    CS @ King's College London · Full-stack developer · London ✦ Shiraz
+  </text>
+
+  <g clip-path="url(#type)">
+    <text x="60" y="180" font-family="Menlo, Consolas, monospace" font-size="22" fill="#e2e8f0">
+      Python • TypeScript • React • Flask • Java
+    </text>
+  </g>
+  <rect x="60" y="158" width="3" height="28" fill="#38bdf8">
+    <animate attributeName="x" values="60;700;700;60" keyTimes="0;0.5;0.9;1" dur="7s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/>
+  </rect>
+</svg>
