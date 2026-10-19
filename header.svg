@@ -40,12 +40,12 @@
     Hi, I'm Amir 👋
   </text>
   <text x="60" y="130" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="18" fill="#cbd5e1">
-    CS @ King's College London · Full-stack developer · London ✦ Shiraz
+    CS @ King's College London · Full-stack developer · London 
   </text>
 
   <g clip-path="url(#type)">
     <text x="60" y="180" font-family="Menlo, Consolas, monospace" font-size="22" fill="#e2e8f0">
-      Python • TypeScript • React • Flask • Java
+      Python • React • Flask • Java
     </text>
   </g>
   <rect x="60" y="158" width="3" height="28" fill="#38bdf8">
