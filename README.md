@@ -23,7 +23,6 @@ Built React features against .NET REST APIs for a fleet-management platform's mi
 ![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat&logo=postgresql&logoColor=white)
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=flat&logo=openjdk&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
 
 ### 🌱 Beyond code
 Vice President of the KCLSU Iranian Society (got it officially ratified after ~10 years) · drummer · ex-competitive swimmer · football, travel, languages, history & philosophy
