@@ -1,13 +1,13 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="900" height="260" viewBox="0 0 900 260">
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#0f172a"/>
-      <stop offset="0.55" stop-color="#1e1b4b"/>
-      <stop offset="1" stop-color="#0c4a6e"/>
+      <stop offset="0" stop-color="#0a0a0a"/>
+      <stop offset="0.55" stop-color="#1f1f1f"/>
+      <stop offset="1" stop-color="#3a3a3a"/>
     </linearGradient>
     <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#38bdf8"/>
-      <stop offset="1" stop-color="#a78bfa"/>
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#9ca3af"/>
     </linearGradient>
     <clipPath id="type">
       <rect x="60" y="150" width="0" height="40">
@@ -18,7 +18,7 @@
   <rect width="900" height="260" rx="16" fill="url(#bg)"/>
 
   <!-- floating math/code glyphs: Manim + C++ + web -->
-  <g font-family="Menlo, Consolas, monospace" fill="#94a3b8" opacity="0.35">
+  <g font-family="Menlo, Consolas, monospace" fill="#a3a3a3" opacity="0.35">
     <text x="640" y="60" font-size="34">∫ eˣ dx
       <animate attributeName="y" values="60;50;60" dur="5s" repeatCount="indefinite"/></text>
     <text x="740" y="130" font-size="28">#include
@@ -39,16 +39,16 @@
   <text x="60" y="100" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="46" font-weight="700" fill="url(#accent)">
     Hi, I'm Amir 👋
   </text>
-  <text x="60" y="130" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="18" fill="#cbd5e1">
+  <text x="60" y="130" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="18" fill="#d4d4d4">
     CS @ King's College London · Full-stack developer · London 
   </text>
 
   <g clip-path="url(#type)">
-    <text x="60" y="180" font-family="Menlo, Consolas, monospace" font-size="22" fill="#e2e8f0">
+    <text x="60" y="180" font-family="Menlo, Consolas, monospace" font-size="22" fill="#f5f5f5">
       Python • React • Flask • Java
     </text>
   </g>
-  <rect x="60" y="158" width="3" height="28" fill="#38bdf8">
+  <rect x="60" y="158" width="3" height="28" fill="#ffffff">
     <animate attributeName="x" values="60;700;700;60" keyTimes="0;0.5;0.9;1" dur="7s" repeatCount="indefinite"/>
     <animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/>
   </rect>
